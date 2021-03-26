@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="#83BBCB"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:background="#A9DDEC"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Galeria de Fotos"
+        android:textColor="#05374F"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:src="@drawable/p0"/>
+
+    <Button
+        android:id="@+id/btn_img_anterior"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:onClick="imagemAnterior"
+        android:text="IMAGEM ANTERIOR"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/btn_prox_img"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:onClick="proximaImagem"
+        android:text="PRÓXIMA IMAGEM"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

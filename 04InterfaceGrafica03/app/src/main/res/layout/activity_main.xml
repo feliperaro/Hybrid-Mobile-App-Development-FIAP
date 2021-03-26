@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Calculadora FIAP"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Informe o primeiro número inteiro:"/>
+
+    <EditText
+        android:hint="Ex: 10"
+        android:id="@+id/edtNumero01"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Informe o segundo número inteiro:"/>
+
+    <EditText
+        android:hint="Ex: 15"
+        android:id="@+id/edtNumero02"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="somar"
+        android:text="Somar" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Soma atual: 0"/>
+
+</LinearLayout>
