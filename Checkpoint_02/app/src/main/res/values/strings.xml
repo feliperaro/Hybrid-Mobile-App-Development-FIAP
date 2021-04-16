@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CP 02 - Orçamento de material de construção</string>
+    <string name="informe_material">Informe o material que deseja:</string>
+    <string name="piso_branco_baixo_brilho">Piso Branco Baixo Brilho</string>
+    <string name="piso_albania_45x4">Piso Albania 45x4</string>
+    <string name="porcelanato_perlato_branco">Porcelanato Perlato Branco</string>
+    <string name="revestimento_mosaico">Revestimento Mosaico</string>
+    <string name="informe_medida_em_m">Informe a medida em M²</string>
+    <string name="medida_inicial">10</string>
+    <string name="ultra_frete_mega_rapido">Ultra frete mega rápido</string>
+    <string name="calcular">Calcular</string>
+</resources>

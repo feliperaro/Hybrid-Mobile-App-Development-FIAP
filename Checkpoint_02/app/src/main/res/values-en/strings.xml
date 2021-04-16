@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CP 02 - Construction material budget</string>
+    <string name="informe_material">Enter the material you want:</string>
+    <string name="piso_branco_baixo_brilho">Low Gloss White Floor</string>
+    <string name="piso_albania_45x4">Albania Flooring 45x4</string>
+    <string name="porcelanato_perlato_branco">White Perlato Porcelain</string>
+    <string name="revestimento_mosaico">Mosaic Cladding</string>
+    <string name="informe_medida_em_m">Enter the measurement in M²</string>
+    <string name="medida_inicial">10</string>
+    <string name="ultra_frete_mega_rapido">Ultra mega fast delivery shipping</string>
+    <string name="calcular">Calculate</string>
+</resources>
