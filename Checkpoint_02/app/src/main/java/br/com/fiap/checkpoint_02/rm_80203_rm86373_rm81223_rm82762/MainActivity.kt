@@ -69,22 +69,20 @@ class MainActivity : AppCompatActivity() {
         var valorOrcamento : Double = 0.0
 
         // vamos capturar o id do material selecionado pelo usuário
-        val idMaterialSelecionado = rdgMateriais.checkedRadioButtonId
+        val idMaterialSelecionado = this.rdgMateriais.checkedRadioButtonId
 
         // setamos a variavel que ira receber o valor do material
         var valorDoMaterial : Double = 0.0
 
+        // setamos uma variavel com a posicao que iremos usar para capturar o valor do meterial,
+        var posValorMaterial : Int = 0
         // vamos capturar qual foi a medida do meterial selecionado
-        val medidaMaterial = edtMedidaMaterial.text.toString().toDouble()
+        val medidaMaterial = this.edtMedidaMaterial.text.toString().toDouble()
         // caso tenha sido informado uma medida inválida
         if (medidaMaterial <= 0.0) {
             val msgRetorno = "Informe a medida do material!"
-            Toast.makeText(this, msgRetorno, Toast.LENGTH_SHORT).show()
-            return
+            return Toast.makeText(this, msgRetorno, Toast.LENGTH_SHORT).show()
         }
-
-        // setamos uma variavel com a posicao que iremos usar para capturar o valor do meterial,
-        var posValorMaterial : Int = 0
 
         // setamos a variavel que contém o array com os materias
         val materiais = this.materiais
