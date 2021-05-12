@@ -1,0 +1,10 @@
+criar app react-native
+abre um terminal na pasta e roda o comando (npx react-native init {nome do projeto})
+aguarda instalação
+
+npx instala temporariamente -- npm instala na maquina (melhor definição)
+
+startar projeto
+
+abre um terminal dentro do projeto e roda o comando (npx react-native start) DEIXAR RODANDO
+abre outro terminal e roda o comando (npx react-native run-android) deverá abrir o emulador com a tela de welcome to react native
