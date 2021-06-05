@@ -1,0 +1,74 @@
+[
+  {
+    "id" : 1,
+    "nome" : "Renaissance São Paulo Hotel",
+    "descricao" : "Com este microscópio, veja até mesmo um elétron!",
+    "estrelas" : 2,
+    "imagem" : "https://www.funcef.com.br/data/files/A9/A2/DD/27/C7180510AD0894059E08A8A8/hotel%20renaissance.jpg",
+    "valor" : "R$ 99.99"
+  },
+  {
+    "id" : 2,
+    "nome" : "Sheraton São Paulo WTC Hotel",
+    "descricao" : "Com este teclado você irá digitar muito mais rápido e ter muito mais produtividade!",
+    "estrelas" : 3,
+    "imagem" : "https://media-cdn.tripadvisor.com/media/photo-s/03/b0/8d/71/sheraton-sao-paulo-wtc.jpg",
+    "valor" : "R$ 150.00"
+  },
+  {
+    "id" : 3,
+    "nome" : "IBIS Styles São Paulo Anhembi",
+    "descricao" : "Com este teclado você irá digitar muito mais rápido e ter muito mais produtividade!",
+    "estrelas" : 3,
+    "imagem" : "https://thumbcdn-1.hotelurbano.net/xpUqJXTKYudv41TJF1CuL4O6cgo=/trim:bottom-right:80/fit-in/625x0/bottom/filters:quality(30)/https%3A//novo-hu.s3.amazonaws.com/reservas/ota/prod/hotel/524865/001-fachada-ibis-styles-sao-paulo-anhembi-hotel-001_20191216171043.jpg",
+    "valor" : "R$ 170.00"
+  },
+  {
+    "id" : 4,
+    "nome" : "Mercure São Paulo Pamplona",
+    "descricao" : "Com este microscópio, veja até mesmo um elétron!",
+    "estrelas" : 4,
+    "imagem" : "https://brasileiro.review/wp-content/uploads/79466114.jpg",
+    "valor" : "R$ 190.00"
+  },
+  {
+    "id" : 5,
+    "nome" : "Confort Ibirapuera",
+    "descricao" : "Câmera de segurança com visão noturna, visão térmica, resolução de 8K e zoom de 128x.",
+    "estrelas" : 4,
+    "imagem" : "https://cf.bstatic.com/images/hotel/max1024x768/202/202070591.jpg",
+    "valor" : "R$ 192.00"
+  },
+  {
+    "id" : 6,
+    "nome" : "Bourbon Convention Ibirapuera",
+    "descricao" : "Câmera de segurança com visão noturna, visão térmica, resolução de 8K e zoom de 128x.",
+    "estrelas" : 3,
+    "imagem" : "https://www.bourbon.com.br/wp-content/uploads/2014/10/bourbon-ibirapuera-fachada-2-2.jpg",
+    "valor" : "R$ 200.00"
+  },  
+  {
+    "id" : 7,
+    "nome" : "Blue Tree Preimum Paulista",
+    "descricao" : "Microfone raro que veio do espaço!",
+    "estrelas" : 4,
+    "imagem" : "https://thumbnails.trvl-media.com/QpOlUKy5yGYTek8RyBjiy2HyWVE=/773x530/smart/filters:quality(60)/images.trvl-media.com/hotels/1000000/580000/573600/573576/550dfe7b_z.jpg",
+    "valor" : "R$ 250.00"
+  },
+  {
+    "id" : 8,
+    "nome" : "Blue Tree Premium Morumbi",
+    "descricao" : "Microfone raro que veio do espaço!",
+    "estrelas" : 5,
+    "imagem" : "http://d2t6k95walcly3.cloudfront.net/unsafe/840x460/anuncios/blue-tree-premium-morumbi-sao-paulo-sao-paulo-55a44e85cd302.jpg",
+    "valor" : "R$ 260,00"
+  },
+  {
+    "id" : 9,
+    "nome" : "Golden Tulip Paulista Plaza e",
+    "descricao" : "Com este microscópio, veja até mesmo um elétron!",
+    "estrelas" : 5,
+    "imagem" : "https://y.cdrst.com/foto/hotel-sf/1d12/granderesp/hotel-golden-tulip-paulista-plaza-general-98a3dc3.jpg",
+    "valor" : "R$ 350.00"
+  }
+]
