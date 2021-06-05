@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Palíndromos</string>
+    <string name="digite_sua_frase">Digite sua frase:</string>
+    <string name="subi_no_onibus">Subi no ônibus</string>
+    <string name="verificar">Verificar</string>
+    <string name="informe_corretamente">Informe corretamente uma palavra ou frase</string>
+    <string name="eh_palindromo">É um palíndromo</string>
+    <string name="nao_eh_palindromo">Não é um palíndromo</string>
+</resources>

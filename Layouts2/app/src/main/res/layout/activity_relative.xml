@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtAoCentro"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="16dp"
+        android:text="Ao centro" />
+
+    <TextView
+        android:id="@+id/txtAcima"
+        android:layout_above="@id/txtAoCentro"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Acima"/>
+
+    <TextView
+        android:id="@+id/txtAbaixo"
+        android:layout_below="@id/txtAoCentro"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Abaixo"/>
+
+    <TextView
+        android:layout_above="@id/txtAoCentro"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@id/txtAcima"
+        android:layout_width="wrap_content"
+        android:text="À esquerda"/>
+
+
+    <TextView
+        android:layout_below="@id/txtAoCentro"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/txtAbaixo"
+        android:layout_width="wrap_content"
+        android:text="À direita" />
+
+</RelativeLayout>
