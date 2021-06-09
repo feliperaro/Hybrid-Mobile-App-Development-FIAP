@@ -33,8 +33,7 @@ class Descricao extends React.Component {
           style={ styles.hotelDescricaoImagem }/>
 
         {/* NOME */}
-        <Text 
-          style={ styles.hotelDescricaoNome }>
+        <Text style={ styles.hotelDescricaoNome }>
           { this.props.hotel.nome}
         </Text>
         
