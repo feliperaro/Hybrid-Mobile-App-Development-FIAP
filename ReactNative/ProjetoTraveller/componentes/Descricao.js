@@ -34,9 +34,7 @@ class Descricao extends React.Component {
 
         {/* NOME */}
         <Text 
-          style={ styles.hotelDescricaoNome }
-          onPress={ this.abrePaginaHotel }>
-
+          style={ styles.hotelDescricaoNome }>
           { this.props.hotel.nome}
         </Text>
         

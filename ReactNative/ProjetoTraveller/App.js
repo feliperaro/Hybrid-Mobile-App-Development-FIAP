@@ -28,8 +28,8 @@ class App extends React.Component {
         <StatusBar 
           backgroundColor = "#108FA0" 
           barStyle = "dark-content" 
-          hidden = {false} 
-          translucent = {true}/> 
+          hidden = { false } 
+          translucent = { true }/> 
  
         {/* TITULO APP */}
         <Titulo
