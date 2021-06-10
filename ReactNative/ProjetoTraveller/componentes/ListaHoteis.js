@@ -13,7 +13,7 @@ class ListaHoteis extends React.Component {
 		return (
 			<View style={ styles.page }>
 				<FlatList 
-					contentContainerStyle={{ paddingBottom: 20 }}
+					contentContainerStyle={{ paddingBottom: 150 }}
 					data={ this.props.hoteis }
 					keyExtractor={ (item) => item.id.toString() }
 					numColumns={1}

@@ -23,9 +23,9 @@ class Titulo extends React.Component {
 			<View style={ styles.menu }>
 				<TouchableOpacity
 					onPress={ () => {
-							if ( typeof this.props.onPress === 'function') {
-								this.props.onPress()
-							}
+						if ( typeof this.props.onPress === 'function') {
+							this.props.onPress()
+						}
 					}}>
 
 					<Text style={ this.state.paginaAtual == PAGE_HOTEIS ? estiloMenuAtivo : estiloMenu }>
