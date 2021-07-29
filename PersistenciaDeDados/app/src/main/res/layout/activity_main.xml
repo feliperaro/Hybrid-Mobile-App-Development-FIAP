@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/nome"
+        android:textSize="20sp"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/tratamento"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"/>
+
+    <Spinner
+        android:drawSelectorOnTop="true"
+        android:entries="@array/saudacoes"
+        android:id="@+id/listTratamento"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:scaleX="2"
+        android:scaleY="2" />
+
+    <Button
+        android:id="@+id/btnSalvarSharedPreferences"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:text="@string/salvar_nova_saudacao_shared_preferences" />
+
+    <Button
+        android:id="@+id/btnSalvarArquivo"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:text="@string/salvar_nova_saudacao_arquivo" />
+
+    <Button
+        android:id="@+id/btnSalvarSql"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:text="@string/salvar_nova_saudacao_banco" />
+
+    <Button
+        android:id="@+id/btnExibir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/exibir_saudacao" />
+
+</LinearLayout>

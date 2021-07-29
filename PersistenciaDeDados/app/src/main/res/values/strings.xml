@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Persistencia De Dados</string>
+    <string name="nome">Nome</string>
+    <string name="tratamento">Tratamento</string>
+    <string name="salvar_nova_saudacao_shared_preferences">Salvar Nova Saudação (SHAREDPREFERENCES)</string>
+    <string name="salvar_nova_saudacao_arquivo">Salvar Nova Saudação (ARQUIVO)</string>
+    <string name="salvar_nova_saudacao_banco">Salvar Nova Saudação (SQL LITE)</string>
+    <string name="exibir_saudacao">Exibir Saudações</string>
+    <string name="arquivo">ARQUIVO</string>
+    <string name="shared_preferences">SHARED PREFERENCES</string>
+    <string name="sql_lite">SQL LITE</string>
+    <string-array name="saudacoes">
+        <item>Sr</item>
+        <item>Sra</item>
+        <item>Dr</item>
+        <item>Dra</item>
+        <item>Sem Tratamento</item>
+    </string-array>
+</resources>

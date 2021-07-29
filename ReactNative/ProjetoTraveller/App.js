@@ -1,9 +1,8 @@
 import React from 'react'
-import { 
-  SafeAreaView,
-  StatusBar
+import {  
+  SafeAreaView, 
+  StatusBar 
 } from 'react-native'
-
 import hoteis from './assets/json/hoteis.json'
 import Titulo from './componentes/Titulo'
 import ListaHoteis from './componentes/ListaHoteis'
