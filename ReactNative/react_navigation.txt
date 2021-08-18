@@ -1,0 +1,16 @@
+instalando bibliotecas react navigation
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+
+em -> android/app/src/main/java/<your package name>/MainActivity.java
+adicionar 
+import android.os.Bundle;
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(null);
+}
+
+npm install @react-navigation/native-stack
+
+index.js importar -> import 'react-native-gesture-handler';
