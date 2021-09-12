@@ -1,0 +1,8 @@
+npm install react-native-elements
+npm install react-native-vector-icons
+npm install react-native-safe-area-context
+
+https://github.com/oblador/react-native-vector-icons#installation
+
+colar -> apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+em -> android/app/build.gradle

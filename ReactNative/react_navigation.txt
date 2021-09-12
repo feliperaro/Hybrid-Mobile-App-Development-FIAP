@@ -11,6 +11,9 @@ protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(null);
 }
 
+STACK NAVIGATOR
+
 npm install @react-navigation/native-stack
 
-index.js importar -> import 'react-native-gesture-handler';
+// npm install react-native-gesture-handler
+// index.js importar -> import 'react-native-gesture-handler';
