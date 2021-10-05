@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
 		backgroundColor: "#e6ffff",
 		flex: 1,
 		justifyContent: "center",
-		marginTop : 10
+		marginTop: 10
 	},
 	inputView: {
 		alignItems: "center",
@@ -110,9 +110,9 @@ const styles = StyleSheet.create({
 		height: 45,
 		textAlign: 'center'
 	},
-	scrollViewStyle : { 
-    backgroundColor: "#e6ffff" 
-  },
+	scrollViewStyle: {
+		backgroundColor: "#e6ffff"
+	},
 	textInput: {
 		flex: 1,
 		height: 50,
